@@ -1,0 +1,38 @@
+{
+    "introText": "Interested in working with me?",
+    "buttonText": "Let's talk",
+    "contactLink": "/contact",
+    "moreLinksTitle": "More Links",
+    "moreLinks": [
+      {
+        "label": "Blog",
+        "url": "https://cpprogrames.blogspot.com/"
+      },
+      {
+        "label": "Home",
+        "url": "/"
+      },
+      {
+        "label": "Contact Me",
+        "url": "/contact"
+      }
+    ],
+    "description": "Frontend Developer with 3+ years of experience building responsive web and mobile applications using React.js and React Native. Skilled in UI design, performance optimization, and user experience, with basic full-stack skills in Node.js and MongoDB. Collaborative team player focused on delivering high-quality solutions that exceed client expectations.",
+    "socialTitle": "Social",
+    "socialLinks": [
+      {
+        "icon": "fab fa-linkedin",
+        "url": "https://www.linkedin.com/in/shashidhar-sunnapu-46147521a/"
+      },
+      {
+        "icon": "fab fa-github",
+        "url": "https://github.com/SunnapuShashidhar"
+      },
+      {
+        "icon": "fa fa-envelope",
+        "url": "mailto:sunnapushashidhar@gmail.com"
+      }
+    ],
+    "copyright": "2021",
+    "author": "Shashidhar Sunnapu"
+  }

@@ -1,5 +1,4 @@
 {
-    "about": " This is where you can describe about **yourself**. The more you describe about yourself, the better it is!\n\n\nExtra Information about you, like hobbies and your goals.\nExample Paragraph: I am passionate about my work. Because I love what I do, I have a steady source of motivation that drives me to do my best. In my last job, this passion led me to challenge myself daily and learn new skills that helped me to do better work. For example, I taught myself how to use Photoshop to improve the quality of our photos and graphics. I soon became the go-to person for any design needs.",
+    "about": "Hi, I'm Shashidhar Sunnapu, a dedicated React.js and React Native developer with expertise in building responsive web and mobile applications. My experience spans full-stack development using JavaScript, TypeScript, and Node.js, with a focus on high-performance, scalable solutions. I work with frameworks like React, React Native, and Redux Toolkit, and have a solid foundation in backend technologies such as Node.js and MongoDB.\n\nCurrently, I lead a team of freshers, guiding them in project development and implementing client solutions. I am always eager to learn and improve by exploring the latest tools and frameworks, and I enjoy mentoring upcoming developers.\n",
     "imageSource": "images/about/profile.png"
-    
 }

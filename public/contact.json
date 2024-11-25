@@ -1,0 +1,37 @@
+{
+    "title": "Thank you! for your interest",
+    "formFields": [
+      {
+        "label": "Name *",
+        "name": "name",
+        "type": "text",
+        "placeholder": "Enter your name",
+        "required": true
+      },
+      {
+        "label": "Email *",
+        "name": "email",
+        "type": "email",
+        "placeholder": "Enter your email",
+        "required": true
+      },
+      {
+        "label": "Tell me about your project *",
+        "name": "description",
+        "type": "textarea",
+        "placeholder": "Describe your project",
+        "rows": 5,
+        "required": true
+      }
+    ],
+    "submitButton": {
+      "text": "Let's talk business",
+      "style": {
+        "backgroundColor": "black",
+        "className": "btn btn-dark float-right"
+      }
+    },
+    "successMessage": "Thank you, {name}. I will contact you soon!",
+    "errorMessage": "Oops! Something went wrong. Please try again later :(",
+    "validationMessage": "Please fill in all required fields."
+  }

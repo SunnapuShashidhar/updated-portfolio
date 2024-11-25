@@ -13,7 +13,6 @@ function Education(props) {
   const theme = useContext(ThemeContext);
   const { header } = props;
   const [data, setData] = useState(null);
-  const [width, setWidth] = useState('50vw');
   const [mode, setMode] = useState('VERTICAL_ALTERNATING');
 
   useEffect(() => {
@@ -27,16 +26,6 @@ function Education(props) {
     if (window?.innerWidth < 576) {
       setMode('VERTICAL');
     }
-
-    if (window?.innerWidth < 576) {
-      setWidth('90vw');
-    } else if (window?.innerWidth >= 576 && window?.innerWidth < 768) {
-      setWidth('90vw');
-    } else if (window?.innerWidth >= 768 && window?.innerWidth < 1024) {
-      setWidth('75vw');
-    } else {
-      setWidth('50vw');
-    }
   }, []);
 
   return (
@@ -44,7 +33,7 @@ function Education(props) {
       <Header title={header} />
       {data ? (
         <Fade>
-          <div style={{ width }} className="section-content-container">
+          <div className="d-flex align-self-center">
             <Container>
               <Chrono
                 hideControls

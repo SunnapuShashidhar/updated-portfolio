@@ -1,19 +1,25 @@
 {
     "education":[
         {
-            "title": "Jun 20XX - Jun 20YY",
-            "cardTitle": "B.Tech, Computer Science",
-            "cardSubtitle":"XYZ University, City",
-            "cardDetailedText": "CGPA - 9.5",
+            "title": "Jun 2019 - Jun 2022",
+            "cardTitle": "B.SC, Computer Science",
+            "cardSubtitle":"Girraj Govt College, Nizamabad",
+            "cardDetailedText": "CGPA - 8.1",
             "icon" : {
                 "src": "images/education/lorem-ipsum.png"
             }
         },
         {
-            "title": "Apr 20XX",
-            "cardTitle": "High School",
-            "cardSubtitle":"ABC School, City",
-            "cardDetailedText": "Marks - 95%"
+            "title": "Jun 2017 - Apr 2019",
+            "cardTitle": "Intermediate",
+            "cardSubtitle":"Trinity jr College, Karimnagar",
+            "cardDetailedText": "Marks - 930"
+        },
+        {
+            "title": "Jun 2016 - Apr 2017",
+            "cardTitle": "SSC",
+            "cardSubtitle":"Vijetha High School, Karimnagar",
+            "cardDetailedText": "CGPA - 7.8"
         }
     ]
 }

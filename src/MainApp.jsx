@@ -2,8 +2,9 @@ import React, { useState, useEffect, Suspense } from 'react';
 import { Switch, Route } from 'react-router-dom';
 import FallbackSpinner from './components/FallbackSpinner';
 import NavBarWithRouter from './components/NavBar';
-import Home from './components/Home';
+// import Home from './components/Home';
 import endpoints from './constants/endpoints';
+import Main from './components/Main';
 
 function MainApp() {
   const [data, setData] = useState(null);
@@ -16,14 +17,16 @@ function MainApp() {
       .then((res) => setData(res))
       .catch((err) => err);
   }, []);
-
+  useEffect(() => {
+    console.log(data);
+  }, [data]);
   return (
     <div className="MainApp">
       <NavBarWithRouter />
       <main className="main">
         <Switch>
           <Suspense fallback={<FallbackSpinner />}>
-            <Route exact path="/" component={Home} />
+            <Route exact path="/" component={Main} />
             {data
               && data.sections.map((route) => {
                 const SectionComponent = React.lazy(() => import('./components/' + route.component));

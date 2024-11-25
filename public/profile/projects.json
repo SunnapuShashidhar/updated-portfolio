@@ -1,149 +1,69 @@
 {
-    "projects" : [
+    "projects": [
         {
-            "image" : "images/projects/portfolio-poster.png",
-            "title": "Dev Portfolio",
-            "bodyText": "- Developer Portfolio Website made in React\n -  Fully customisable and dynamic, easily change data and images.\n - Dark Mode Support",
+            "image": "images/projects/pellisambandalu-poster.png",
+            "title": "Pellisambandalu Matrimonial Website",
+            "bodyText": "- A platform designed for users to find and connect with potential matrimonial matches.\n- Includes user dashboards, settings, matchmaking filters, and an admin panel for managing user activity.\n- Features smooth navigation and performance optimization.",
             "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/dev-portfolio"
-                },
                 {
                     "text": "Live",
-                    "href": "https://mayankagarwal.me"
+                    "href": "https://pellisambandalu.com/"
                 }
             ],
-            "tags" : [
-                "React",
-                "Portfolio",
-                "JavaScript"
-            ]
+            "tags": [
+                "React.js",
+                "JavaScript",
+                "API Integration",
+                "Azure Repo",
+                "Bootstrap"
+            ],
+            "company": "Accumenta Services PVT.LTD"
         },
         {
-            "image" : "images/projects/caaring-poster.png",
-            "title": "Caaring -  Cab Share App",
-            "bodyText": "- A Cab Sharing web app made using **Django** for **VIT** Students. People can create a new cab or request to join an existing cab.\n - Added User authentication and password reset using **SendGrid**.\n - Deployed on **heroku** using **gunicorn**.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/Caaring"
-                },
-                {
-                    "text": "Live",
-                    "href": "http://caaring.herokuapp.com"
-                }
-            ],
-            "tags" : [
-                "Python",
-                "Django",
-                "BootStrap",
-                "SendGrid",
-                "Heroku",
-                "Gunicorn",
-                "VIT"
-            ]
-        },
-        {
-            "image" : "images/projects/quiet-hours-poster.jpg",
-            "title": "Quiet Hours App",
-            "bodyText": "- An Android App that **automatically silences** your phone during class hours, designed for **VITians**.\n - Option to select class **slots** and **custom time**.\n - Option to put on Vibrate instead of Silent.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/QuietHours-Android"
-                }
-            ],
-            "tags" : [
-                "Java",
-                "Android",
-                "Alarm Manager",
-                "VIT"
-            ]
-        },
-        {
-            "title": "Secure Chat App",
-            "bodyText": "- An Android App that allows users to send texts in real time.\n - End to End encryption using **RSA** Algorithm.\n - Uses **Firebase** database to store texts.\n - Secured with **Fingerprint** lock.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/SecureChatApp"
-                }
-            ],
-            "tags" : [
-                "Java",
-                "Android",
-                "Firebase",
-                "RSA"
-            ]
-        },
-        {
-            "title": "MVVM Sample App",
-            "bodyText": "- An Android App that loads data from mock API and show in both **LinearLayout** and **GridLayout RecyclerView**.\n - Offline support using **Room** DB and **NetworkBoundResource**.\n - Uses the **MVVM** architecture.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/mvvm-sample-app"
-                }
-            ],
-            "tags" : [
-                "Kotlin",
-                "Android",
-                "MVVM",
-                "Room",
-                "Coroutines",
-                "Flow",
-                "Hilt-Dagger",
-                "NetworkBoundResource"
-            ]
-        },
-        {
-            "title": "Feed List App",
-            "bodyText": "- An Android App that loads list of feeds from a **paginated** API and shows in a RecyclerView.\n - Uses the **MVVM** architecture.\n - Uses **Paging 3** library along with other Architecture Components.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/Paginated-App-Feeds-List"
-                }
-            ],
-            "tags" : [
-                "Kotlin",
-                "Android",
-                "MVVM",
-                "Paging 3",
-                "Coroutines",
-                "Flow"
-            ]
-        },
-        {
-            "title": "Task Tracker",
-            "bodyText": "- A simple Task Tracker web app made with **Angular 12**.\n - Uses **mock JSON server** to get, add, delete or update tasks.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/task-tracker-app"
-                }
-            ],
-            "tags" : [
+            "image": "images/projects/mymechanic-poster.png",
+            "title": "MyMechanic App",
+            "bodyText": "- A mobile app enabling users to book mechanics from nearby mechanic shops.\n- Includes separate flows for admins, users, and mechanics for a streamlined experience.\n- Features revenue tracking and search filters for mechanics and shops.",
+            "links": [],
+            "tags": [
+                "React Native",
+                "JavaScript",
                 "TypeScript",
-                "Angular 12",
-                "JavaScript"
-            ]
+                "Redux Toolkit",
+                "Firebase",
+                "Material UI"
+            ],
+            "company": "Extended WebApp Tech Pvt.Ltd"
         },
         {
-            "title": "Image Encryption/Decryption",
-            "bodyText": "- A Web App for Image Encryption and Decryption made in **Django**.\n - Uses **SDES** algorithm for encryption/decryption.",
+            "image": "images/projects/lms-poster.png",
+            "title": "Learning Management System App",
+            "bodyText": "- Multi-tiered application for training new hires, enhancing onboarding and skill acquisition.\n- Dynamic video upload/playback and role-based access for admins, managers, team leads, and users.\n- Features course management and real-time notifications.",
+            "links": [],
+            "tags": [
+                "React Native",
+                "JavaScript",
+                "TypeScript",
+                "Redux Toolkit",
+                "Firebase",
+                "Bitbucket"
+            ],
+            "company": "Extended WebApp Tech Pvt.Ltd"
+        },
+        {
+            "image": "images/projects/gtutor-poster.png",
+            "title": "GTutor Website",
+            "bodyText": "- A platform for students to access notes and practice content.\n- Responsive user interface and features for uploading and organizing educational materials.\n- Optimized performance and cross-browser compatibility.",
             "links": [
                 {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/img-encrypt-sdes"
+                    "text": "Live",
+                    "href": "https://gtutornzb.netlify.app/#/"
                 }
             ],
-            "tags" : [
-                "Python",
-                "Django",
-                "SDES",
-                "Cryptography"
+            "tags": [
+                "React.js",
+                "JavaScript",
+                "Bootstrap",
+                "Context API"
             ]
         }
     ]

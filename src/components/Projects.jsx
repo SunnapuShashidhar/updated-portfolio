@@ -30,6 +30,7 @@ const Projects = (props) => {
       .then((res) => res.json())
       .then((res) => setData(res))
       .catch((err) => err);
+    console.log(data);
   }, []);
   const numberOfItems = showMore && data ? data.length : 6;
   return (

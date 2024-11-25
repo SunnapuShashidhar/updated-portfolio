@@ -2,32 +2,50 @@
     "experiences": [
         {
             "title": "Software Engineer",
-            "subtitle": "XYZ Ltd",
+            "subtitle": "Accumenta Services PVT.LTD",
             "workType": "Full-time",
             "workDescription": [
-                "Integrated **2** new product.",
-                "Worked on adding **def** to **bcd**. Improved speed by 50%."
+                "Developed and maintained scalable web and mobile applications using React.js and React Native.",
+                "Collaborated with cross-functional teams to define requirements and translate them into technical specifications.",
+                "Implemented key features and functionalities based on Figma designs, enhancing user experience.",
+                "Managed API integrations and utilized Redux Toolkit for efficient state management.",
+                "Conducted unit testing using Jest and Enzyme, performed bug fixes, and code reviews."
             ],
-            "dateText": "06/20XX – Present"
+            "dateText": "06/2023 – Present"
         },
         {
-            "title": "Software Engineer",
-            "subtitle": "XYZ Ltd",
-            "workType": "Internship",
+            "title": "Junior Software Engineer",
+            "subtitle": "Extended Web App Tech",
+            "workType": "Full-time",
             "workDescription": [
-                "Worked on abc."
+                "Developed mobile applications using React Native and web applications using React.js.",
+                "Created new features using JavaScript, TypeScript, and Material UI based on Figma designs.",
+                "Integrated APIs and used Redux Toolkit for optimized state management.",
+                "Performed unit testing using Jest and Enzyme to ensure high-quality code."
             ],
-            "dateText": "01/20XX – 05/20XX"
+            "dateText": "05/2023 – 05/2024"
         },
         {
-            "title": "App Developer",
-            "subtitle": "ABC Pvt Ltd",
+            "title": "Junior Software Engineer",
+            "subtitle": "VYRATech Solutions Pvt Ltd",
+            "workType": "Full-time",
+            "workDescription": [
+                "Designed and developed responsive web applications using React.js and Material UI.",
+                "Contributed to backend development using Node.js, Express.js, and MongoDB.",
+                "Implemented a mobile-first approach for existing websites, improving usability across devices.",
+                "Created reusable components and responsive templates using Material UI."
+            ],
+            "dateText": "09/2021 – 05/2023"
+        },
+        {
+            "title": "Web Developer",
+            "subtitle": "Freelance",
             "workType": "Freelance",
             "workDescription": [
-                "Developed the official apps for the startup for both Android and iOS using hybrid framework.",
-                "Done bcd work."
+                "Developed the official apps for clients using React Native, supporting both Android and iOS platforms.",
+                "Implemented features such as API integration, state management with Redux, and custom UI components."
             ],
-            "dateText": "09/20XX – 01/20YY"
+            "dateText": "10/2020 – 09/2021"
         }
     ]
 }

@@ -13,16 +13,6 @@ const styles = {
   },
 };
 
-const ExternalNavLink = styled.a`
-  color: ${(props) => props.theme.navbarTheme.linkColor};
-  &:hover {
-    color: ${(props) => props.theme.navbarTheme.linkHoverColor};
-  }
-  &::after {
-    background-color: ${(props) => props.theme.accentColor};
-  }
-`;
-
 const InternalNavLink = styled(NavLink)`
   color: ${(props) => props.theme.navbarTheme.linkColor};
   &:hover {
@@ -49,7 +39,6 @@ const NavBar = () => {
       .then((res) => setData(res))
       .catch((err) => err);
   }, []);
-
   return (
     <Navbar
       fixed="top"
@@ -64,7 +53,7 @@ const NavBar = () => {
           <Navbar.Brand href="/">
             <img
               src={data?.logo?.source}
-              className="d-inline-block align-top"
+              className="d-inline-block align-top rounded-circle"
               alt="main logo"
               style={
                 data?.logo?.height && data?.logo?.width
@@ -82,19 +71,7 @@ const NavBar = () => {
           <Nav className="me-auto" />
           <Nav>
             {data
-              && data.sections?.map((section, index) => (section?.type === 'link' ? (
-                <ExternalNavLink
-                  key={section.title}
-                  href={section.href}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  onClick={() => setExpanded(false)}
-                  className="navbar__link"
-                  theme={theme}
-                >
-                  {section.title}
-                </ExternalNavLink>
-              ) : (
+              && data.sections?.map((section, index) => (
                 <InternalNavLink
                   key={section.title}
                   onClick={() => setExpanded(false)}
@@ -106,7 +83,7 @@ const NavBar = () => {
                 >
                   {section.title}
                 </InternalNavLink>
-              )))}
+              ))}
           </Nav>
           <ThemeToggler
             onClick={() => setExpanded(false)}

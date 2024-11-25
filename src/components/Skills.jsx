@@ -56,6 +56,7 @@ function Skills(props) {
                         style={styles.iconStyle}
                         src={item.icon}
                         alt={item.title}
+                        className="bg-transparent"
                       />
                       <p>{item.title}</p>
                     </div>
