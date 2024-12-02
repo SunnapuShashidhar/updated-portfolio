@@ -5,6 +5,7 @@ import {
 import PropTypes from 'prop-types';
 import { ThemeContext } from 'styled-components';
 import ReactMarkdown from 'react-markdown';
+// import { FaBuilding } from 'react-icons/fa';
 
 const styles = {
   badgeStyle: {
@@ -49,7 +50,10 @@ const ProjectCard = (props) => {
         }}
         text={theme.bsSecondaryVariant}
       >
-        <Card.Img variant="top" src={project?.image} />
+        <Card.Header style={styles.headerStyle}>
+          {project.company}
+        </Card.Header>
+        <Card.Img variant="top" src={project?.image} style={{ height: 180 }} />
         <Card.Body>
           <Card.Title style={styles.cardTitleStyle}>{project.title}</Card.Title>
           <Card.Text style={styles.cardTextStyle}>
@@ -69,9 +73,10 @@ const ProjectCard = (props) => {
             </Button>
           ))}
         </Card.Body>
-        {project.tags && (
+
+        {(project.tags || project.company) && (
           <Card.Footer style={{ backgroundColor: theme.cardFooterBackground }}>
-            {project.tags.map((tag) => (
+            {project.tags?.map((tag) => (
               <Badge
                 key={tag}
                 pill
@@ -98,6 +103,7 @@ ProjectCard.propTypes = {
       text: PropTypes.string.isRequired,
       href: PropTypes.string.isRequired,
     })),
+    company: PropTypes.string,
     tags: PropTypes.arrayOf(PropTypes.string),
   }).isRequired,
 };

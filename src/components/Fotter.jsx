@@ -43,12 +43,6 @@ const Fotter = () => {
           <h5 className="text-info">{data?.socialTitle}</h5>
           <Social />
         </div>
-        <p>
-          ©
-          {data?.copyright}
-          {' '}
-          {data?.author}
-        </p>
       </div>
     </div>
   );

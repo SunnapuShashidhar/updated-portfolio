@@ -17,9 +17,6 @@ function MainApp() {
       .then((res) => setData(res))
       .catch((err) => err);
   }, []);
-  useEffect(() => {
-    console.log(data);
-  }, [data]);
   return (
     <div className="MainApp">
       <NavBarWithRouter />
